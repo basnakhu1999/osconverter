@@ -1,0 +1,85 @@
+{
+    "site": {
+        "name": "OSConverter",
+        "tagline": "Universal Unit Converter",
+        "description": "Convert any unit instantly — length, weight, temperature, speed, data, and 1000+ more units with formulas and explanations."
+    },
+    "nav": {
+        "converters": "Converters",
+        "categories": "Categories",
+        "blog": "Blog",
+        "languages": "Languages",
+        "search": "Search conversions...",
+        "searchPlaceholder": "Try: 100 cm to m"
+    },
+    "home": {
+        "heroTitle": "Convert Any Unit,\nInstantly.",
+        "heroSubtitle": "1000+ units across 25 categories — physics, digital, cooking, engineering & more.",
+        "searchLabel": "Quick Convert",
+        "popularTitle": "Popular Conversions",
+        "categoriesTitle": "All Categories",
+        "statsUnits": "Units",
+        "statsCategories": "Categories",
+        "statsConversions": "Conversions",
+        "statsLanguages": "Languages"
+    },
+    "converter": {
+        "from": "From",
+        "to": "To",
+        "value": "Value",
+        "result": "Result",
+        "swap": "Swap",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "share": "Share",
+        "formula": "Formula",
+        "howToConvert": "How to Convert {from} to {to}",
+        "conversionTable": "Conversion Table",
+        "relatedConversions": "Related Conversions",
+        "unitExplanation": "Unit Explanation",
+        "enterValue": "Enter a value"
+    },
+    "category": {
+        "allConverters": "All Converters",
+        "unitsAvailable": "{count} units available",
+        "popularPairs": "Popular Conversion Pairs"
+    },
+    "footer": {
+        "about": "About",
+        "privacy": "Privacy Policy",
+        "contact": "Contact",
+        "sitemap": "Sitemap",
+        "copyright": "© {year} OSConverter. All rights reserved.",
+        "description": "OSConverter is a free online unit converter supporting 1000+ units across 25 categories."
+    },
+    "seo": {
+        "titleTemplate": "{title} | OSConverter",
+        "homeTitle": "OSConverter — Free Online Unit Converter (1000+ Units)",
+        "homeDescription": "Convert units instantly with OSConverter. Support for length, weight, temperature, speed, data size, and 1000+ more units with formulas.",
+        "categoryTitle": "{category} Converter — Convert {category} Units",
+        "categoryDescription": "Convert between {count}+ {category} units instantly. Free online {category} converter with formulas and conversion tables.",
+        "converterTitle": "Convert {from} to {to} — {category} Converter",
+        "converterDescription": "Convert {from} to {to} instantly. {value} {fromSymbol} = {result} {toSymbol}. Free online converter with formula and explanation.",
+        "dynamicTitle": "{value} {from} = {result} {to} — Convert {fromName} to {toName}",
+        "dynamicDescription": "{value} {fromName} equals {result} {toName}. Instantly convert {from} to {to} using OSConverter with formulas and explanations."
+    },
+    "groups": {
+        "physics": "Physics",
+        "digital": "Digital",
+        "dailyLife": "Daily Life",
+        "engineering": "Engineering"
+    },
+    "search": {
+        "noResults": "No results found",
+        "tryExample": "Try: 100 cm to m",
+        "resultsFor": "Result for \"{query}\""
+    },
+    "blog": {
+        "title": "Blog",
+        "readMore": "Read More",
+        "backToBlog": "← Back to Blog"
+    },
+    "ad": {
+        "label": "Advertisement"
+    }
+}

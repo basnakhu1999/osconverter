@@ -1,0 +1,85 @@
+{
+    "site": {
+        "name": "OSConverter",
+        "tagline": "ตัวแปลงหน่วยสากล",
+        "description": "แปลงหน่วยได้ทันที — ความยาว น้ำหนัก อุณหภูมิ ความเร็ว ข้อมูล และอีกกว่า 1000 หน่วยพร้อมสูตรและคำอธิบาย"
+    },
+    "nav": {
+        "converters": "ตัวแปลง",
+        "categories": "หมวดหมู่",
+        "blog": "บทความ",
+        "languages": "ภาษา",
+        "search": "ค้นหาการแปลงหน่วย...",
+        "searchPlaceholder": "ลอง: 100 cm to m"
+    },
+    "home": {
+        "heroTitle": "แปลงทุกหน่วย\nได้ทันที",
+        "heroSubtitle": "กว่า 1000 หน่วย ใน 25 หมวดหมู่ — ฟิสิกส์ ดิจิทัล การทำอาหาร วิศวกรรม และอื่นๆ",
+        "searchLabel": "แปลงด่วน",
+        "popularTitle": "การแปลงยอดนิยม",
+        "categoriesTitle": "หมวดหมู่ทั้งหมด",
+        "statsUnits": "หน่วย",
+        "statsCategories": "หมวดหมู่",
+        "statsConversions": "การแปลง",
+        "statsLanguages": "ภาษา"
+    },
+    "converter": {
+        "from": "จาก",
+        "to": "เป็น",
+        "value": "ค่า",
+        "result": "ผลลัพธ์",
+        "swap": "สลับ",
+        "copy": "คัดลอก",
+        "copied": "คัดลอกแล้ว!",
+        "share": "แชร์",
+        "formula": "สูตร",
+        "howToConvert": "วิธีแปลง {from} เป็น {to}",
+        "conversionTable": "ตารางการแปลง",
+        "relatedConversions": "การแปลงที่เกี่ยวข้อง",
+        "unitExplanation": "คำอธิบายหน่วย",
+        "enterValue": "ป้อนค่า"
+    },
+    "category": {
+        "allConverters": "ตัวแปลงทั้งหมด",
+        "unitsAvailable": "มี {count} หน่วย",
+        "popularPairs": "คู่การแปลงยอดนิยม"
+    },
+    "footer": {
+        "about": "เกี่ยวกับ",
+        "privacy": "นโยบายความเป็นส่วนตัว",
+        "contact": "ติดต่อ",
+        "sitemap": "แผนผังเว็บ",
+        "copyright": "© {year} OSConverter สงวนลิขสิทธิ์",
+        "description": "OSConverter เป็นตัวแปลงหน่วยออนไลน์ฟรี รองรับกว่า 1000 หน่วยใน 25 หมวดหมู่"
+    },
+    "seo": {
+        "titleTemplate": "{title} | OSConverter",
+        "homeTitle": "OSConverter — ตัวแปลงหน่วยออนไลน์ฟรี (1000+ หน่วย)",
+        "homeDescription": "แปลงหน่วยได้ทันทีกับ OSConverter รองรับความยาว น้ำหนัก อุณหภูมิ ความเร็ว ขนาดข้อมูล และกว่า 1000 หน่วยพร้อมสูตร",
+        "categoryTitle": "ตัวแปลง{category} — แปลงหน่วย{category}",
+        "categoryDescription": "แปลงหน่วย{category}กว่า {count}+ หน่วยได้ทันที ตัวแปลง{category}ออนไลน์ฟรีพร้อมสูตรและตารางการแปลง",
+        "converterTitle": "แปลง {from} เป็น {to} — ตัวแปลง{category}",
+        "converterDescription": "แปลง {from} เป็น {to} ได้ทันที {value} {fromSymbol} = {result} {toSymbol} ตัวแปลงออนไลน์ฟรีพร้อมสูตรและคำอธิบาย",
+        "dynamicTitle": "{value} {from} = {result} {to} — แปลง {fromName} เป็น {toName}",
+        "dynamicDescription": "{value} {fromName} เท่ากับ {result} {toName} แปลง {from} เป็น {to} ได้ทันทีกับ OSConverter พร้อมสูตรและคำอธิบาย"
+    },
+    "groups": {
+        "physics": "ฟิสิกส์",
+        "digital": "ดิจิทัล",
+        "dailyLife": "ชีวิตประจำวัน",
+        "engineering": "วิศวกรรม"
+    },
+    "search": {
+        "noResults": "ไม่พบผลลัพธ์",
+        "tryExample": "ลอง: 100 cm to m",
+        "resultsFor": "ผลลัพธ์สำหรับ \"{query}\""
+    },
+    "blog": {
+        "title": "บทความ",
+        "readMore": "อ่านเพิ่มเติม",
+        "backToBlog": "← กลับไปบทความ"
+    },
+    "ad": {
+        "label": "โฆษณา"
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "site": {
+        "name": "OSConverter",
+        "tagline": "通用单位换算器",
+        "description": "即时转换任何单位 — 长度、重量、温度、速度、数据等1000多种单位，配有公式和说明。"
+    },
+    "nav": {
+        "converters": "转换器",
+        "categories": "分类",
+        "blog": "博客",
+        "languages": "语言",
+        "search": "搜索转换...",
+        "searchPlaceholder": "试试: 100 cm to m"
+    },
+    "home": {
+        "heroTitle": "即时转换\n任何单位",
+        "heroSubtitle": "25个类别的1000多种单位 — 物理、数字、烹饪、工程等。",
+        "searchLabel": "快速转换",
+        "popularTitle": "热门转换",
+        "categoriesTitle": "所有分类",
+        "statsUnits": "单位",
+        "statsCategories": "分类",
+        "statsConversions": "转换",
+        "statsLanguages": "语言"
+    },
+    "converter": {
+        "from": "从",
+        "to": "到",
+        "value": "数值",
+        "result": "结果",
+        "swap": "交换",
+        "copy": "复制",
+        "copied": "已复制！",
+        "share": "分享",
+        "formula": "公式",
+        "howToConvert": "如何将 {from} 转换为 {to}",
+        "conversionTable": "转换表",
+        "relatedConversions": "相关转换",
+        "unitExplanation": "单位说明",
+        "enterValue": "输入数值"
+    },
+    "category": {
+        "allConverters": "所有转换器",
+        "unitsAvailable": "{count} 个可用单位",
+        "popularPairs": "热门转换对"
+    },
+    "footer": {
+        "about": "关于",
+        "privacy": "隐私政策",
+        "contact": "联系",
+        "sitemap": "网站地图",
+        "copyright": "© {year} OSConverter 版权所有。",
+        "description": "OSConverter是一个免费的在线单位换算器，支持25个类别中的1000多种单位。"
+    },
+    "seo": {
+        "titleTemplate": "{title} | OSConverter",
+        "homeTitle": "OSConverter — 免费在线单位换算器（1000+单位）",
+        "homeDescription": "使用OSConverter即时转换单位。支持长度、重量、温度、速度、数据大小等1000多种单位。",
+        "categoryTitle": "{category}转换器 — 转换{category}单位",
+        "categoryDescription": "即时转换{count}+种{category}单位。免费在线转换器，配有公式和转换表。",
+        "converterTitle": "将{from}转换为{to} — {category}转换器",
+        "converterDescription": "即时将{from}转换为{to}。{value} {fromSymbol} = {result} {toSymbol}。免费在线转换器。",
+        "dynamicTitle": "{value} {from} = {result} {to} — 转换 {fromName} 为 {toName}",
+        "dynamicDescription": "{value} {fromName}等于{result} {toName}。使用OSConverter即时转换。"
+    },
+    "groups": {
+        "physics": "物理",
+        "digital": "数字",
+        "dailyLife": "日常生活",
+        "engineering": "工程"
+    },
+    "search": {
+        "noResults": "未找到结果",
+        "tryExample": "试试: 100 cm to m",
+        "resultsFor": "\"{query}\" 的结果"
+    },
+    "blog": {
+        "title": "博客",
+        "readMore": "阅读更多",
+        "backToBlog": "← 返回博客"
+    },
+    "ad": {
+        "label": "广告"
+    }
+}

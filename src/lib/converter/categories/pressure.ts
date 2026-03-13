@@ -1,0 +1,32 @@
+import { Category } from '../types';
+
+export const pressure: Category = {
+    id: 'pressure',
+    name: 'Pressure',
+    icon: '🔵',
+    description: 'Convert between pressure units such as Pascal, bar, PSI, atmosphere, torr and more.',
+    baseUnit: 'pascal',
+    units: [
+        { id: 'pascal', name: 'Pascal', symbol: 'Pa', factor: 1 },
+        { id: 'kilopascal', name: 'Kilopascal', symbol: 'kPa', factor: 1000 },
+        { id: 'megapascal', name: 'Megapascal', symbol: 'MPa', factor: 1e6 },
+        { id: 'gigapascal', name: 'Gigapascal', symbol: 'GPa', factor: 1e9 },
+        { id: 'hectopascal', name: 'Hectopascal', symbol: 'hPa', factor: 100 },
+        { id: 'bar', name: 'Bar', symbol: 'bar', factor: 100000 },
+        { id: 'millibar', name: 'Millibar', symbol: 'mbar', factor: 100 },
+        { id: 'atmosphere', name: 'Atmosphere', symbol: 'atm', factor: 101325 },
+        { id: 'psi', name: 'PSI', symbol: 'psi', factor: 6894.757 },
+        { id: 'torr', name: 'Torr', symbol: 'Torr', factor: 133.3224 },
+        { id: 'mmhg', name: 'Millimeter of Mercury', symbol: 'mmHg', factor: 133.3224 },
+        { id: 'cmhg', name: 'Centimeter of Mercury', symbol: 'cmHg', factor: 1333.224 },
+        { id: 'inhg', name: 'Inch of Mercury', symbol: 'inHg', factor: 3386.389 },
+        { id: 'cmh2o', name: 'Centimeter of Water', symbol: 'cmH₂O', factor: 98.0665 },
+        { id: 'inh2o', name: 'Inch of Water', symbol: 'inH₂O', factor: 249.0889 },
+        { id: 'kgf-per-cm2', name: 'Kilogram-force per cm²', symbol: 'kgf/cm²', factor: 98066.5 },
+        { id: 'pound-per-sq-foot', name: 'Pound per Square Foot', symbol: 'psf', factor: 47.88026 },
+        { id: 'dyne-per-cm2', name: 'Dyne per cm²', symbol: 'dyn/cm²', factor: 0.1 },
+        { id: 'technical-atmosphere', name: 'Technical Atmosphere', symbol: 'at', factor: 98066.5 },
+        { id: 'micropascal', name: 'Micropascal', symbol: 'μPa', factor: 1e-6 },
+        { id: 'decibar', name: 'Decibar', symbol: 'dbar', factor: 10000 },
+    ],
+};

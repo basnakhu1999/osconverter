@@ -1,0 +1,32 @@
+import { Category } from '../types';
+
+export const power: Category = {
+    id: 'power',
+    name: 'Power',
+    icon: '💡',
+    description: 'Convert between power units such as watts, horsepower, BTU/hour, kilowatt and more.',
+    baseUnit: 'watt',
+    units: [
+        { id: 'watt', name: 'Watt', symbol: 'W', factor: 1 },
+        { id: 'kilowatt', name: 'Kilowatt', symbol: 'kW', factor: 1000 },
+        { id: 'megawatt', name: 'Megawatt', symbol: 'MW', factor: 1e6 },
+        { id: 'gigawatt', name: 'Gigawatt', symbol: 'GW', factor: 1e9 },
+        { id: 'milliwatt', name: 'Milliwatt', symbol: 'mW', factor: 0.001 },
+        { id: 'microwatt', name: 'Microwatt', symbol: 'μW', factor: 1e-6 },
+        { id: 'horsepower', name: 'Horsepower (mechanical)', symbol: 'hp', factor: 745.6999 },
+        { id: 'horsepower-metric', name: 'Horsepower (metric)', symbol: 'PS', factor: 735.49875 },
+        { id: 'horsepower-electric', name: 'Horsepower (electric)', symbol: 'hp(E)', factor: 746 },
+        { id: 'horsepower-boiler', name: 'Horsepower (boiler)', symbol: 'hp(S)', factor: 9809.5 },
+        { id: 'btu-per-hour', name: 'BTU per Hour', symbol: 'BTU/h', factor: 0.293071 },
+        { id: 'btu-per-minute', name: 'BTU per Minute', symbol: 'BTU/min', factor: 17.5843 },
+        { id: 'btu-per-second', name: 'BTU per Second', symbol: 'BTU/s', factor: 1055.06 },
+        { id: 'calorie-per-second', name: 'Calorie per Second', symbol: 'cal/s', factor: 4.184 },
+        { id: 'kilocalorie-per-hour', name: 'Kilocalorie per Hour', symbol: 'kcal/h', factor: 1.163 },
+        { id: 'foot-pound-per-second', name: 'Foot-Pound per Second', symbol: 'ft·lbf/s', factor: 1.355818 },
+        { id: 'foot-pound-per-minute', name: 'Foot-Pound per Minute', symbol: 'ft·lbf/min', factor: 0.022597 },
+        { id: 'erg-per-second', name: 'Erg per Second', symbol: 'erg/s', factor: 1e-7 },
+        { id: 'ton-of-refrigeration', name: 'Ton of Refrigeration', symbol: 'TR', factor: 3516.853 },
+        { id: 'joule-per-second', name: 'Joule per Second', symbol: 'J/s', factor: 1 },
+        { id: 'kilojoule-per-hour', name: 'Kilojoule per Hour', symbol: 'kJ/h', factor: 0.277778 },
+    ],
+};

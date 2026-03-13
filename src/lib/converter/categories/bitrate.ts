@@ -1,0 +1,32 @@
+import { Category } from '../types';
+
+export const bitrate: Category = {
+    id: 'bitrate',
+    name: 'Bitrate',
+    icon: '📡',
+    description: 'Convert between data transfer rate units such as bps, kbps, Mbps, Gbps and more.',
+    baseUnit: 'bit-per-second',
+    units: [
+        { id: 'bit-per-second', name: 'Bit per Second', symbol: 'bps', factor: 1 },
+        { id: 'kilobit-per-second', name: 'Kilobit per Second', symbol: 'kbps', factor: 1000 },
+        { id: 'megabit-per-second', name: 'Megabit per Second', symbol: 'Mbps', factor: 1e6 },
+        { id: 'gigabit-per-second', name: 'Gigabit per Second', symbol: 'Gbps', factor: 1e9 },
+        { id: 'terabit-per-second', name: 'Terabit per Second', symbol: 'Tbps', factor: 1e12 },
+        { id: 'byte-per-second', name: 'Byte per Second', symbol: 'B/s', factor: 8 },
+        { id: 'kilobyte-per-second', name: 'Kilobyte per Second', symbol: 'KB/s', factor: 8000 },
+        { id: 'megabyte-per-second', name: 'Megabyte per Second', symbol: 'MB/s', factor: 8e6 },
+        { id: 'gigabyte-per-second', name: 'Gigabyte per Second', symbol: 'GB/s', factor: 8e9 },
+        { id: 'terabyte-per-second', name: 'Terabyte per Second', symbol: 'TB/s', factor: 8e12 },
+        { id: 'kibibit-per-second', name: 'Kibibit per Second', symbol: 'Kibps', factor: 1024 },
+        { id: 'mebibit-per-second', name: 'Mebibit per Second', symbol: 'Mibps', factor: 1048576 },
+        { id: 'gibibit-per-second', name: 'Gibibit per Second', symbol: 'Gibps', factor: 1073741824 },
+        { id: 'kibibyte-per-second', name: 'Kibibyte per Second', symbol: 'KiB/s', factor: 8192 },
+        { id: 'mebibyte-per-second', name: 'Mebibyte per Second', symbol: 'MiB/s', factor: 8388608 },
+        { id: 'gibibyte-per-second', name: 'Gibibyte per Second', symbol: 'GiB/s', factor: 8589934592 },
+        { id: 'ethernet-10', name: 'Ethernet (10 Mbps)', symbol: '10BASE-T', factor: 1e7 },
+        { id: 'fast-ethernet', name: 'Fast Ethernet (100 Mbps)', symbol: '100BASE-TX', factor: 1e8 },
+        { id: 'gigabit-ethernet', name: 'Gigabit Ethernet', symbol: '1000BASE-T', factor: 1e9 },
+        { id: 'usb2', name: 'USB 2.0 (480 Mbps)', symbol: 'USB 2.0', factor: 4.8e8 },
+        { id: 'usb3', name: 'USB 3.0 (5 Gbps)', symbol: 'USB 3.0', factor: 5e9 },
+    ],
+};

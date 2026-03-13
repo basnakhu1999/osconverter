@@ -1,0 +1,85 @@
+{
+    "site": {
+        "name": "OSConverter",
+        "tagline": "यूनिवर्सल यूनिट कनवर्टर",
+        "description": "किसी भी इकाई को तुरंत बदलें — लंबाई, वजन, तापमान, गति, डेटा और 1000+ अधिक इकाइयाँ सूत्र और व्याख्या के साथ।"
+    },
+    "nav": {
+        "converters": "कनवर्टर",
+        "categories": "श्रेणियाँ",
+        "blog": "ब्लॉग",
+        "languages": "भाषाएँ",
+        "search": "रूपांतरण खोजें...",
+        "searchPlaceholder": "कोशिश करें: 100 cm to m"
+    },
+    "home": {
+        "heroTitle": "किसी भी इकाई को\nतुरंत बदलें",
+        "heroSubtitle": "25 श्रेणियों में 1000+ इकाइयाँ — भौतिकी, डिजिटल, खाना पकाना, इंजीनियरिंग और अधिक।",
+        "searchLabel": "त्वरित रूपांतरण",
+        "popularTitle": "लोकप्रिय रूपांतरण",
+        "categoriesTitle": "सभी श्रेणियाँ",
+        "statsUnits": "इकाइयाँ",
+        "statsCategories": "श्रेणियाँ",
+        "statsConversions": "रूपांतरण",
+        "statsLanguages": "भाषाएँ"
+    },
+    "converter": {
+        "from": "से",
+        "to": "में",
+        "value": "मान",
+        "result": "परिणाम",
+        "swap": "बदलें",
+        "copy": "कॉपी",
+        "copied": "कॉपी हो गया!",
+        "share": "शेयर",
+        "formula": "सूत्र",
+        "howToConvert": "{from} को {to} में कैसे बदलें",
+        "conversionTable": "रूपांतरण तालिका",
+        "relatedConversions": "संबंधित रूपांतरण",
+        "unitExplanation": "इकाई विवरण",
+        "enterValue": "एक मान दर्ज करें"
+    },
+    "category": {
+        "allConverters": "सभी कनवर्टर",
+        "unitsAvailable": "{count} इकाइयाँ उपलब्ध",
+        "popularPairs": "लोकप्रिय रूपांतरण जोड़े"
+    },
+    "footer": {
+        "about": "हमारे बारे में",
+        "privacy": "गोपनीयता नीति",
+        "contact": "संपर्क",
+        "sitemap": "साइटमैप",
+        "copyright": "© {year} OSConverter सर्वाधिकार सुरक्षित।",
+        "description": "OSConverter 25 श्रेणियों में 1000+ इकाइयों का समर्थन करने वाला मुफ्त ऑनलाइन यूनिट कनवर्टर है।"
+    },
+    "seo": {
+        "titleTemplate": "{title} | OSConverter",
+        "homeTitle": "OSConverter — मुफ्त ऑनलाइन यूनिट कनवर्टर (1000+ इकाइयाँ)",
+        "homeDescription": "OSConverter के साथ तुरंत इकाइयाँ बदलें। लंबाई, वजन, तापमान, गति, डेटा आकार और 1000+ इकाइयों का समर्थन।",
+        "categoryTitle": "{category} कनवर्टर — {category} इकाइयाँ बदलें",
+        "categoryDescription": "{count}+ {category} इकाइयों को तुरंत बदलें। सूत्र और तालिकाओं के साथ मुफ्त कनवर्टर।",
+        "converterTitle": "{from} को {to} में बदलें — {category} कनवर्टर",
+        "converterDescription": "{from} को {to} में तुरंत बदलें। {value} {fromSymbol} = {result} {toSymbol}। मुफ्त कनवर्टर।",
+        "dynamicTitle": "{value} {from} = {result} {to} — {fromName} को {toName} में बदलें",
+        "dynamicDescription": "{value} {fromName} बराबर है {result} {toName}। OSConverter के साथ तुरंत बदलें।"
+    },
+    "groups": {
+        "physics": "भौतिकी",
+        "digital": "डिजिटल",
+        "dailyLife": "दैनिक जीवन",
+        "engineering": "इंजीनियरिंग"
+    },
+    "search": {
+        "noResults": "कोई परिणाम नहीं मिला",
+        "tryExample": "कोशिश करें: 100 cm to m",
+        "resultsFor": "\"{query}\" के लिए परिणाम"
+    },
+    "blog": {
+        "title": "ब्लॉग",
+        "readMore": "और पढ़ें",
+        "backToBlog": "← ब्लॉग पर वापस"
+    },
+    "ad": {
+        "label": "विज्ञापन"
+    }
+}

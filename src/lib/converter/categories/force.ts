@@ -1,0 +1,30 @@
+import { Category } from '../types';
+
+export const force: Category = {
+    id: 'force',
+    name: 'Force',
+    icon: '💪',
+    description: 'Convert between force units such as Newton, dyne, kilogram-force, pound-force and more.',
+    baseUnit: 'newton',
+    units: [
+        { id: 'newton', name: 'Newton', symbol: 'N', factor: 1 },
+        { id: 'kilonewton', name: 'Kilonewton', symbol: 'kN', factor: 1000 },
+        { id: 'meganewton', name: 'Meganewton', symbol: 'MN', factor: 1e6 },
+        { id: 'giganewton', name: 'Giganewton', symbol: 'GN', factor: 1e9 },
+        { id: 'millinewton', name: 'Millinewton', symbol: 'mN', factor: 0.001 },
+        { id: 'micronewton', name: 'Micronewton', symbol: 'μN', factor: 1e-6 },
+        { id: 'nanonewton', name: 'Nanonewton', symbol: 'nN', factor: 1e-9 },
+        { id: 'dyne', name: 'Dyne', symbol: 'dyn', factor: 1e-5 },
+        { id: 'kilogram-force', name: 'Kilogram-force', symbol: 'kgf', factor: 9.80665 },
+        { id: 'gram-force', name: 'Gram-force', symbol: 'gf', factor: 0.00980665 },
+        { id: 'metric-ton-force', name: 'Metric Ton-force', symbol: 'tf', factor: 9806.65 },
+        { id: 'pound-force', name: 'Pound-force', symbol: 'lbf', factor: 4.448222 },
+        { id: 'ounce-force', name: 'Ounce-force', symbol: 'ozf', factor: 0.278014 },
+        { id: 'kip', name: 'Kip', symbol: 'kip', factor: 4448.222 },
+        { id: 'poundal', name: 'Poundal', symbol: 'pdl', factor: 0.138255 },
+        { id: 'short-ton-force', name: 'Short Ton-force', symbol: 'tonf', factor: 8896.443 },
+        { id: 'long-ton-force', name: 'Long Ton-force', symbol: 'long tonf', factor: 9964.016 },
+        { id: 'sthene', name: 'Sthène', symbol: 'sn', factor: 1000 },
+        { id: 'attonewton', name: 'Attonewton', symbol: 'aN', factor: 1e-18 },
+    ],
+};
