@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/getDictionary';
 import { type Locale } from '@/lib/i18n/config';
-import { blogPosts } from '../page';
+import { blogPosts } from '@/lib/blog/data';
 
 export async function generateStaticParams() {
     return blogPosts.map((post) => ({ slug: post.slug }));
@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     const post = blogPosts.find((p) => p.slug === slug);
     if (!post) return {};
     return {
-        title: `${post.title} | OSConverter Blog`,
+        title: post.title,
         description: post.excerpt,
         openGraph: { title: post.title, description: post.excerpt },
     };
