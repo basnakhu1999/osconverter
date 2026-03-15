@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     poweredByHeader: false,
     async headers() {
         return [
+            // Security headers for all pages
             {
                 source: '/(.*)',
                 headers: [
@@ -24,6 +25,65 @@ const nextConfig: NextConfig = {
                     {
                         key: 'Permissions-Policy',
                         value: 'camera=(), microphone=(), geolocation=()',
+                    },
+                ],
+            },
+            // CDN Cache: Converter pages (7 days cache, 1 day stale)
+            {
+                source: '/:lang/:category/:conversion',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, s-maxage=604800, stale-while-revalidate=86400',
+                    },
+                ],
+            },
+            // CDN Cache: Category pages (7 days)
+            {
+                source: '/:lang/:category',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, s-maxage=604800, stale-while-revalidate=86400',
+                    },
+                ],
+            },
+            // CDN Cache: Homepage (1 day)
+            {
+                source: '/:lang',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, s-maxage=86400, stale-while-revalidate=3600',
+                    },
+                ],
+            },
+            // CDN Cache: Blog pages (7 days)
+            {
+                source: '/:lang/blog/:slug',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, s-maxage=604800, stale-while-revalidate=86400',
+                    },
+                ],
+            },
+            // CDN Cache: Static sitemap files (30 days)
+            {
+                source: '/sitemap/:path*',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, s-maxage=2592000, stale-while-revalidate=604800',
+                    },
+                ],
+            },
+            {
+                source: '/sitemap.xml',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, s-maxage=2592000, stale-while-revalidate=604800',
                     },
                 ],
             },

@@ -17,7 +17,7 @@ import {
 } from '@/lib/converter';
 import ConverterClient from './ConverterClient';
 
-export const revalidate = 86400; // ISR: 24 hours
+export const revalidate = 2592000; // ISR: 30 days (conversion results never change)
 
 // Helper: resolve slug to units (handles both "cm-to-meter" and "100-cm-to-m")
 function resolveSlug(slug: string, catId: string) {
